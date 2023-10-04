@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon-calculator.png" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <script defer src="./src/js/index.js"></script>
+    <title>Calculator App</title>
+  </head>
+  <body>
+    <header>
+      <form class="color-picker" action="">
+        <fieldset>
+          <legend class="visually-hidden">
+            Choose a color combination you like
+          </legend>
+
+          <input type="radio" name="theme" id="green" checked />
+          <label for="green" class="visually-hidden">Green </label>
+
+          <input type="radio" name="theme" id="blue" />
+          <label for="blue" class="visually-hidden">Blue</label>
+
+          <input type="radio" name="theme" id="red" />
+          <label for="red" class="visually-hidden">Red</label>
+
+          <input type="radio" name="theme" id="purple" />
+          <label for="purple" class="visually-hidden">Purple</label>
+
+          <input type="radio" name="theme" id="black" /><label
+            for="black"
+            class="visually-hidden"
+            >Black</label
+          >
+        </fieldset>
+      </form>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="screen">0</section>
+
+        <section class="buttons">
+          <div class="calc-button-row">
+            <button class="btn other-button">AC</button>
+            <button class="btn other-button">+/-</button>
+            <button class="btn other-button">&percnt;</button>
+            <button class="btn calc-button">&divide;</button>
+          </div>
+
+          <div class="calc-button-row">
+            <button class="btn num-button">7</button>
+            <button class="btn num-button">8</button>
+            <button class="btn num-button">9</button>
+            <button class="btn calc-button">&times;</button>
+          </div>
+
+          <div class="calc-button-row">
+            <button class="btn num-button">4</button>
+            <button class="btn num-button">5</button>
+            <button class="btn num-button">6</button>
+            <button class="btn calc-button">&minus;</button>
+          </div>
+
+          <div class="calc-button-row">
+            <button class="btn num-button">1</button>
+            <button class="btn num-button">2</button>
+            <button class="btn num-button">3</button>
+            <button class="btn calc-button">&plus;</button>
+          </div>
+
+          <div class="calc-button-row">
+            <button class="btn num-button double">0</button>
+            <button class="btn num-button">.</button>
+            <button class="btn other-button">&equals;</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
