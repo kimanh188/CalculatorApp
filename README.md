@@ -17,8 +17,8 @@ A simple calculator app with a color picker that empowers users to customize the
 
 The calculator app offers the following color palettes:
 
-1. Golden Glow - A warm palette evoking the brilliance of a golden glow
-2. Pastel Sky - Soft, pastel hues inspired by a tranquil sky
-3. Fiery Sunset - Intense red and orange tones reminiscent of a vibrant sunset
-4. Lavender Purple - Relaxing lavender tones for a soothing and elegant feel
-5. Slate Elegance - Sophisticated black and cool grays for a sleek and elegant look
+1. [Golden Glow](./images/standard-theme.png) - A warm palette evoking the brilliance of a golden glow
+2. [Pastel Sky](./images/blue-theme.png) - Soft, pastel hues inspired by a tranquil sky
+3. [Fiery Sunset](./images/red-theme.png) - Intense red and orange tones reminiscent of a vibrant sunset
+4. [Lavender Purple](./images/purple-theme.png) - Relaxing lavender tones for a soothing and elegant feel
+5. [Slate Elegance](./images/black-theme.png) - Sophisticated black and cool grays for a sleek and elegant look
